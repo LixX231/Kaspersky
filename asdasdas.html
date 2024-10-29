@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=s, initial-scale=1.0">
+    <title>Таблицы и формы</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <table class="table-example">
+        <caption>Счет</caption>
+        <thead>
+            <tr>
+                <th>Наименование</th>
+                <th>Цена</th>
+                <th>Количество</th>
+                <th>Стоимость</th>
+                <th>Итог</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Чарончик</td>
+                <td>1500$</td>
+                <td>10</td>
+                <td>15000$</td>
+                <td rowspan="3">54000</td>
+            </tr>
+            <tr>
+                <td>Батл-Стар</td>
+                <td>1700$</td>
+                <td>10</td>
+                <td>17000$</td>
+                
+            </tr>
+            <tr>
+                <td>Пасик 2</td>
+                <td>1200$</td>
+                <td>10</td>
+                <td>12000$</td>
+                
+            </tr>
+            <tr>
+                <td>Кнайт-80</td>
+                <td>2000$</td>
+                <td colspan="2">5</td>
+                
+            </tr>
+        </tbody>
+    </table>
+    <form id="form-example">
+        <label for="login">enter your user name</label><br>
+        <input type="text" id="login" autofocus required placeholder="login"><br>
+        <label for="password">enter your password</label><br>
+        <input type="password" id="password" required  
+        placeholder="password"><br>
+        <input type="checkbox" id="agrement">
+        <label for="agrement">remember the penalty</label>
+        <input type="radio" id="male" name="gender">
+        <label for="male">m</label>
+        <input type="radio" id="female" name="gender">
+        <label for="female">g</label><br>
+        <input type="submit" value="enter"><br>
+    </form>
+</body>
+</html>

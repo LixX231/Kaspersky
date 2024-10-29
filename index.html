@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Сайт</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Edu+AU+VIC+WA+NT+Guides:wght@400..700&display=swap" rel="stylesheet">
+
+
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+   <header>
+    <img src="img/bank.svg" alt="логотип" width="50px">
+     <h1>Евгений Валентинович Касперский</h1>
+     <nav>
+        <ul>
+            <li>
+                <a href="#about">Введение</a>
+            </li> 
+            <li>
+                <a href="#articles">Информация</a>
+            </li>
+        </ul>
+     </nav>
+   </header>
+   <main>
+    <section class="about" id="about">
+        <div class="about" id="about">
+            <nav id="about"><h2>Введение</h2>
+                <a href="img/Eugene_Kaspersky_Headshot.jpg" download><i>
+                    <img class="avatar" src="img/Eugene_Kaspersky_Headshot.jpg" alt="Касперский" width="200px">
+                </i></a>
+                <p><b>Евге́ний Валенти́нович Каспе́рский (род. 4 октября 1965, Новороссийск, Краснодарский край) — российский программист, один из ведущих мировых специалистов в сфере информационной безопасности. Один из основателей, основной владелец и нынешний глава АО «Лаборатория Касперского» — международной компании, занимающейся разработкой решений для обеспечения IT-безопасности, имеющей более 30 региональных офисов и ведущей продажи в 200 странах. Лауреат Государственной премии в области науки и технологий за 2008 год.</b></p></nav>
+    </div>
+        
+        
+        <blockquote>
+            <p>«Мне кажется, интернет-пространство необходимо разделить на три зоны. „Красная“ зона — для тех процессов, где безопасность имеет решающее значение; здесь использование интернет-паспорта обязательно. В „желтой“ зоне требования к авторизации ниже — она необходима, например, для проверки возраста покупателя в онлайн-магазинах, торгующих алкоголем или предлагающих товары „для взрослых“. И наконец, „зеленая“ зона: блоги, социальные сети, новостные сайты, чаты — все, что имеет отношение к свободе слова. Здесь никакой авторизации не требуется».</p>
+            <footer><cite>Касперский, Евгений Валентинович</cite></footer>
+        </blockquote>
+    </section>
+    <section class="articles" id="articles">
+        <h2>Информация</h2>
+        <ol class="page-list">
+            <li>
+                <a href="article1.html">Ранние годы</a>
+            </li>
+            <li>
+                <a href="article2.html">Карьера</a>
+            </li>
+            <li>
+                <a href="article3.html">Взгляды на кибербезопасность</a>
+            </li>
+            <li>
+                <a href="article4.html">Семья и увлечения</a>
+            </li>
+            <li>
+                <a class="definitions" href="definitions.html">Определения</a>
+            </li>
+        </ol>
+    </section>
+    <section class="feedback" id="contact-form">
+        <h2>Обратная связь</h2>
+        <form id="feedback">
+        <div class="form_item">
+            <label for="topic">Topic</label><br>
+            <select name="topic" id="topic">
+            <option value="1">Order a service</option>
+            <option value="2">Leave a review/remark</option>
+            <option value="3">Offer cooperation</option>
+            <option value="4">Other</option>
+            </select>
+        </div>
+        <label for="login">enter your username</label>
+        <div class="form_item">
+            <input type="text" id="login" required placeholder="login"><br>
+        </div>
+        <label for="E-mail">enter your E-mail</label><br>
+        <div class="form_item">
+            <input type="mail" id="E-mail" required placeholder="E-mail"><br>
+        </div>
+        <div class="form_item">
+            <label for="review">
+                Review:<br>
+                <textarea name="Review" rows="10" id="Review"></textarea>
+            </label>
+        </div>
+        <div class="form_item">
+            <label for="tel">telephone number</label><br>
+            <input type="tel" id="tel"pattern="\+7\-[0-9]{3}\-[0-9]{3}\-[0-9]{2}\-[0-9]{2}"
+            required placeholder="+7-xxx-xx-xx"><br>
+            
+        </div>
+        <div class="form_item">
+            <input type="checkbox" id="agrement">
+            <label for="agrement">remember the penalty</label>
+        </div>
+        <div class="form_item">
+            <input type="submit" value="enter"><br>
+        </div>
+    </form>
+    </section>
+   </main>
+   <div class="footer">
+    <nav id="footer">
+        <footer>
+        <p>&copy; Галлямов Максим, 2024</p>
+        <p>Вы также можете найти меня здесь 
+        </p>
+        <a href="tel:+79193485394">+79193485394</a>
+        <a href="mailto:maksgallymov@gmail.com">maksgallymov@gmail.com</a>
+        <a href="youtube.com"><img src="img/youtube.svg" alt="youtube"></a>
+        <a href="telegram.com"><img src="img/telegram.svg" alt="telegram"></a></nav>
+   </footer></div>
+    
+</body>
+</html>
